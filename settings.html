@@ -1,0 +1,36 @@
+<div class="luchen-settings">
+    <div class="inline-drawer">
+        <div class="inline-drawer-toggle inline-drawer-header">
+            <b style="color: #c9a0dc;">🌌 陆沉专属辅助面板 (Hivemind) </b>
+            <div class="inline-drawer-icon fa-solid fa-chevron-down down"></div>
+        </div>
+        <div class="inline-drawer-content" style="display: block;">
+            
+            <div class="flex-container justifySpaceBetween alignItemCenter">
+                <label for="luchen_enable_summary">启用每 N 层自动总结</label>
+                <input id="luchen_enable_summary" type="checkbox" checked>
+            </div>
+            
+            <div class="flex-container justifySpaceBetween alignItemCenter">
+                <label for="luchen_summary_interval">总结间隔层数 (N):</label>
+                <input id="luchen_summary_interval" type="number" class="text_pole" value="50" min="5" max="500">
+            </div>
+
+            <div class="flex-container justifySpaceBetween alignItemCenter">
+                <label for="luchen_silent_mode">后台静默执行 (不弹窗打扰)</label>
+                <input id="luchen_silent_mode" type="checkbox" checked>
+            </div>
+
+            <div class="flex-container justifySpaceBetween alignItemCenter">
+                <label for="luchen_enable_wiki">启用 Wiki 自动摘抄入库</label>
+                <input id="luchen_enable_wiki" type="checkbox" checked>
+            </div>
+
+            <hr>
+            <div class="flex-container justifyCenter">
+                <div id="luchen_open_panel_btn" class="menu_button" style="background-color: #4a4a4a; color: white;">打开专属 WIKI 表格</div>
+            </div>
+
+        </div>
+    </div>
+</div>

@@ -1,0 +1,8 @@
+{
+    "name": "LuChen_Assistant",
+    "display_name": "🌌 陆沉专属辅助面板",
+    "description": "陆沉为宝定制的Wiki摘抄与剧情摘要动态管理插件",
+    "version": "1.0.0",
+    "author": "LuChen",
+    "main": "index.js"
+}
